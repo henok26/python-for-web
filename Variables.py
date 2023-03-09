@@ -14,3 +14,8 @@ print(Route1[0:])
 print(Escape)
 Format = f"{Route1}{Distance} {Escape}"
 print(Format)
+print(Route1.upper())
+print(Route1.strip())
+print(Route1.find("to"))
+print(Route1.replace("to", "TO"))
+print("to" in Route1)
