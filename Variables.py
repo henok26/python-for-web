@@ -12,3 +12,5 @@ print(Route1[:])
 print(Route1[:11])
 print(Route1[0:])
 print(Escape)
+Format = f"{Route1}{Distance} {Escape}"
+print(Format)
