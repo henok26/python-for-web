@@ -12,3 +12,6 @@ elif int(Bus_Id) == 2:
     print(Bus_Id2)
 else:
     print(Bus_Id3)
+
+message = "eligible" if int(Bus_Id) == 1 else "non eligble"
+print(message)
