@@ -1,6 +1,5 @@
-n = 10
-for i in range(10):
-    print("fm")
-    if i == 5:
-        print("stop")
-        break
+
+# Nested loops
+for n in range(5):
+    for m in range(2):
+        print(f"{n},{m}")
